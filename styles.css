@@ -19,7 +19,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     background-image: url(../img/index4.jpg);
-    /*background: linear-gradient(to left, #0612bf, #6a72eb);*/
     text-align: center;
 }
 
@@ -93,7 +92,7 @@ hr{
 
 .main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin-top: 50px;
 }
@@ -175,8 +174,6 @@ a:hover{
     color: rgba(13, 245, 241, 0.81);
 }
 
-
-
 .tour{
     display: grid;
     grid-auto-flow: row;
@@ -219,7 +216,6 @@ a:hover{
     width: 200px;
     display: flex;
     align-items: center;
-    /*background-color: rgba(44, 6, 126, 0.9);*/
     background-color: black;
 }
 
@@ -269,23 +265,6 @@ a:hover{
 #band{
     margin: 20px;
     float: right;
-}
-
-.header-nav-form{
-    display: grid;
-    background: black;
-}
-
-.header-nav-form input{
-    font-size: 25px;
-    background: none;
-    padding: 5px;
-    color: white; 
-    border: none;
-}
-
-.header-menu #coloredForm{
-    background-color: rgba(13, 245, 241, 0.81);
 }
 
 
