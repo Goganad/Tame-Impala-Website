@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+
+body {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(../img/index4.jpg);
+    /*background: linear-gradient(to left, #0612bf, #6a72eb);*/
+    text-align: center;
+}
+
+.banner{
+    width: 400px;
+    background-color:rgba(0, 0, 0, 0.6);
+    line-height: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bottom{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.lower{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+#ratings{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#reviews{
+    text-align: center;
+}
+
+hr{
+    color: white;
+}
+
+#coverArt{
+    width: 60%;
+}
+
+#coverArtMain{
+    width: 60%;
+    
+}
+
+#video{
+    margin-left: 20px;
+    width: 256px;
+    height: auto;
+}
+
+#kevin{
+    width: 400px;
+    height: 200px;
+}
+
+#currents{
+    margin-right: 20px;
+    width: 256px;
+    height: auto;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#rating {
+    width: 100px;
+}
+
+#platform{
+    width: 40px;
+    height: 40px;
+}
+
+.tracklist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-items: center;
+    margin: 50px;
+}
+
+.listen span{
+    font-size: 25px;
+    display: block;
+}
+
+.listen div{
+    margin: 10px;
+}
+
+.listen a{
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: black;
+}
+
+.main div{
+    justify-self: center;
+    align-items: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 15px; 
+}
+
+.menu{
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 30px;
+    font-size: 40px;
+}
+
+.header-menu{
+    display: grid;
+    grid-auto-flow: column;
+    grid-row-gap: 30px;
+    font-size: 40px;
+}
+
+ul{
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgba(13, 245, 241, 0.81);
+}
+
+
+
+.tour{
+    display: grid;
+    grid-auto-flow: row;
+    background-color:rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    align-items: center;
+    justify-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 25px;
+}
+
+.tour a{
+    font-size: 25px;
+}
+
+.tour div{
+    background-color: rgb(129, 124, 179);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 10px;
+}
+
+
+#buy-tickets {
+    align-items: center;
+    margin: auto;
+}
+
+#buy-tickets-button {
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    /*background-color: rgba(44, 6, 126, 0.9);*/
+    background-color: black;
+}
+
+#buy-tickets-button a{
+    margin: auto;
+}
+
+.store{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    margin: auto;
+}
+
+.item-block{
+    margin: auto;
+    align-content: center;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+}
+
+.store-basket{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#basket{
+    height: 50px;
+    width: 50px;
+}
+
+.biography{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: start;
+}
+
+.biography > p{
+    padding-left: 20px;
+}
+
+#band{
+    margin: 20px;
+    float: right;
+}
+
+.header-nav-form{
+    display: grid;
+    background: black;
+}
+
+.header-nav-form input{
+    font-size: 25px;
+    background: none;
+    padding: 5px;
+    color: white; 
+    border: none;
+}
+
+.header-menu #coloredForm{
+    background-color: rgba(13, 245, 241, 0.81);
+}
+
+
+@media screen and (max-width: 1075px){
+    body{
+        width: auto;
+    }
+    header{
+        font-size: 22px;
+    }
+
+    .banner{
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .menu{
+        margin: 50px;
+    }
+
+    .header-menu{
+        display: grid;
+        grid-auto-flow: row;
+        grid-row-gap: 30px;
+        font-size: 40px;
+    }
+
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    #logo{
+        font-size: 20px;
+    }
+    
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .lower{
+        width: 300px;
+        height: 320px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #video{
+        margin: auto;
+        width: 256px;
+        height: auto;
+    }
+
+    #currents{
+        margin: auto;
+        width: 256px;
+        height: auto;
+    }
+
+    .tracklist{
+        margin: 15px;  
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+
+    #ratings{
+        margin: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .show {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin: 10px;
+    }
+    .biography{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #band{
+        float: none;
+        width: 240px;
+    }
+    #reviews{
+        margin-top: 15px;
+    }
+}
