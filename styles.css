@@ -19,8 +19,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     background-image: url(../img/index4.jpg);
-    /*background: linear-gradient(to left, #0612bf, #6a72eb);*/
     text-align: center;
+}
+
+#labs{
+    background-image: none;
+    background-color: darkblue;
+}
+
+#lab-input{
+    font-size: 25px;
 }
 
 .banner{
@@ -93,7 +101,7 @@ hr{
 
 .main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin-top: 50px;
 }
@@ -174,8 +182,6 @@ a{
 a:hover{
     color: rgba(13, 245, 241, 0.81);
 }
-
-
 
 .tour{
     display: grid;
@@ -284,8 +290,12 @@ a:hover{
     border: none;
 }
 
+.header-nav-form input[type = "submit"]:hover{
+    color: rgba(13, 245, 241, 0.81) ;
+}
+
 .header-menu #coloredForm{
-    background-color: rgba(13, 245, 241, 0.81);
+    background-color: rgb(129, 124, 179);
 }
 
 
