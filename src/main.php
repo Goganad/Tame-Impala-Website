@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <link rel="stylesheet" href="../styles.css"/>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body link="white" vlink="white" alink="white">
-<body>
-
-<header>
-  <h1>TAME IMPALA</h1>
-  <nav class="header-menu">
-    <a href="TSR.html">The Slow Rush</a>
-    <a href="shows.html">Shows</a>
-    <a href="store.html">Store</a>      
-    <a href="biography.html">Biography</a>
-  </nav>
-</header>
-
 <div class="main">
-
     <div class="banner">
       <p>NEW ALBUM OUT!</p>
       <img id = "coverArt" src="../img/theSlowRush.jpg" alt="Album Cover">
@@ -51,13 +30,3 @@
     <img id= "currents" src="../img/currents.jpg" alt="currents">
   </div>
 </div>
-  
-<footer>
-    <h4>©2020 HPLTEAM</h4>
-    <p><a href="#">Terms of Use</a></p>
-    <p><a href="#">Policy</a></p> 
-    <p><a href="#">Not Sell My Info</a></p>
-</footer>
-
-</body>
-</html>
