@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="../styles.css"/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header id = "shows-header">
-        <a href="index.html"><h1>TAME IMPALA</h1></a>
-        <div class="header-menu">
-            <nav class="header-menu">
-                <a href="TSR.html">The Slow Rush</a>
-                <a href="shows.html">Shows</a>
-                <a href="store.html">Store</a>
-                <a href="biography.html">Biography</a>
-            </nav>
-        </div>
-    </header>
-    <div class="biography">
-        <img id = "band" src="../img/band.jpg" alt="band">
-        <p>
+<div class="biography">
+    <img id = "band" src="../img/band.jpg" alt="band">
+    <p>
             Tame Impala is a psychedelic music project of 
             Australian multi-instrumentalist Kevin Parker.
             In the recording studio, Parker writes, records, performs, 
@@ -46,13 +26,5 @@
             of the Year. Parker won the APRA Award for Song of the Year 2016 for 
             Currents' first track, "Let It Happen". The fourth and most recent 
             studio album, The Slow Rush, was released 14 February 2020.
-        </p>
-    </div>
-    <footer>
-        <p>©2020 HPLTEAM</p>
-        <p><a href="#">Terms of Use</a></p>
-        <p><a href="#">Policy</a></p> 
-        <p><a href="#">Not Sell My Info</a></p>
-    </footer>
-</body>
-</html>
+    </p>
+</div>
