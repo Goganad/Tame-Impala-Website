@@ -86,4 +86,11 @@
         $result = mysqli_query($conn, $query);
         $convertedYear = mysqli_fetch_row($result);
         echo $year." in chinese - ".$convertedYear[0];
+        echo "<p>Next 5 years:</p>";
+        for ($i = 1; $i <= 5; $i++){
+            $query = "SELECT chinese FROM ".$tableName." WHERE year=".($year%12+$i);
+            $result = mysqli_query($conn, $query);
+            $convertedYear = mysqli_fetch_row($result);
+            echo $year+$i." in chinese - ".$convertedYear[0]."<br>";
+        }
     }
