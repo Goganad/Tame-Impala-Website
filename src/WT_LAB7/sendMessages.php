@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 require '../../vendor/autoload.php';
 
-if ($_GET['sendMessage'] == "send"){
+if (isset($_GET["receivers"])){
     $mail = new PHPMailer(true);
 
     $messageBody = $_GET['messageText'];
@@ -15,10 +15,14 @@ if ($_GET['sendMessage'] == "send"){
 
     $emailsArr = str_getcsv($receivers,',');
 
+    $emailsFile = fopen("emails.txt", 'w') or die("Could not create file");
+
     echo "Sending message to:<br>";
     foreach($emailsArr as $key => $email){
         echo $email.'<br>';
+        fwrite($emailsFile, $email."\n");
     }
+    fclose($emailsFile);
 
     $mail->CharSet = 'UTF-8';
     $mail->isSMTP();

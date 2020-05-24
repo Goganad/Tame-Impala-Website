@@ -18,7 +18,7 @@
         <input type="text" name="topic" autocomplete="off" placeholder="Input email addresses"><br>
         <p>Message text:</p>
         <textarea rows="10" cols="45" name="messageText"></textarea><br>
-        <button type='submit' name="sendMessage" value="send">Отправить</button>
+        <input type="submit" value="Send">
         <br>
         <?php include 'sendMessages.php'; ?>
     </form>
